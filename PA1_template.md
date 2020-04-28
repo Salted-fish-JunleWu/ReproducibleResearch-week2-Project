@@ -1,6 +1,6 @@
 # ReproducibleResearch-week2-Project
 
-
+```{r}
 library(ggplot2)
 library(lattice)
 library(gridExtra)
@@ -74,3 +74,4 @@ xyplot(steps ~ interval | factor(day),
        layout = c(1,2),
        xlab = "Interval",
        ylab = "Number of Steps")
+```
